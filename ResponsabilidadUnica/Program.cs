@@ -26,20 +26,20 @@ namespace ResponsabilidadUnica
             Console.WriteLine("Vehiculo");
             var auto = new ClaseVehiculo();
 
-            Console.WriteLine("El auto acelera por:");
-            auto.accionVehiculo("Inyeccion");
+            Console.WriteLine("\nEl vehiculo acelera por:");
+            auto.AcelerarVehiculo("Inyeccion");
 
-            Console.WriteLine("\nEl auto frena por:");
-            auto.accionVehiculo("Comprension", "Hidraulicos");
+            Console.WriteLine("\nEl vehiculo frena por:");
+            auto.FrenarVehiculo("", "Frenos Hidraulicos");
 
-            Console.WriteLine("\nEl auto Desacelera por:");
-            auto.accionVehiculo("Comprension", "Hidraulicos", "Electricos");
+            Console.WriteLine("\nEl vehiculo desacelera por:");
+            auto.DesacelerarVehiculo("", "", "Electrico");
 
-            Console.WriteLine("\nEl auto Enciende por:");
-            auto.accionVehiculo("Comprension", "Hidraulicos", "Electricos", "Neumaticos");
+            Console.WriteLine("\nEl vehiculo enciende por:");
+            auto.EncenderVehiculo("", "", "", "Electrico");
 
-            Console.WriteLine("\nEl auto se apaga por:");
-            auto.accionVehiculo("Comprension", "Hidraulicos", "Electricos", "Neumaticos", "Ahogamiento");
+            Console.WriteLine("\nEl vehiculo se apaga por:");
+            auto.ApagarVehiculo("", "", "", "", "Ahogamiento");
 
             Console.ReadKey();
         }

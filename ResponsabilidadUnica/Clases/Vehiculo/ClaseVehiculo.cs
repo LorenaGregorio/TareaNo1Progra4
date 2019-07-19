@@ -24,29 +24,37 @@ namespace ResponsabilidadUnica.Clases.Vehiculo
 
         //interfaces
 
-        public void accionVehiculo(string Texto1)
+        
+
+        public void AcelerarVehiculo(string Texto1)
         {
             ImprimirConsola(Texto1);
         }
 
-        public void accionVehiculo(string Texto1, string texto2)
+        public void FrenarVehiculo(string Texto1, string texto2)
         {
-            ImprimirConsola(Texto1 + " "+ texto2);
+            ImprimirConsola(Texto1 + " " + texto2);
         }
 
-        public void accionVehiculo(string Texto1, string texto2, string texto3)
+        public void DesacelerarVehiculo(string Texto1, string texto2, string texto3)
         {
+
             ImprimirConsola(Texto1 + " " + texto2 + " " + texto3);
         }
 
-        public void accionVehiculo(string Texto1, string texto2, string texto3, string texto4)
+        public void EncenderVehiculo(string Texto1, string texto2, string texto3, string texto4)
         {
             ImprimirConsola(Texto1 + " " + texto2 + " " + texto3 + " " + texto4);
         }
 
-        public void accionVehiculo(string Texto1, string texto2, string texto3, string texto4, string texto5)
+        public void ApagarVehiculo(string Texto1, string texto2, string texto3, string texto4, string texto5)
         {
             ImprimirConsola(Texto1 + " " + texto2 + " " + texto3 + " " + texto4 + " " + texto5);
+        }
+
+        public void AcerelarVehiculo(string Texto1)
+        {
+           
         }
     }
 }
