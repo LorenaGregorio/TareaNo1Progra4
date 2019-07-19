@@ -9,7 +9,7 @@ namespace ResponsabilidadUnica.Interfaces.Vehiculo
     interface InterVehiculo
     {
         //Acelerar texto1
-        void AcerelarVehiculo(string Texto1);
+        void AcelerarVehiculo(string Texto1);
         //Frenar Texto2
         void FrenarVehiculo(string Texto1,string texto2);
         //DESACELERAR Texto3

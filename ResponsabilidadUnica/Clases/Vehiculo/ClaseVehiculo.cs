@@ -52,9 +52,6 @@ namespace ResponsabilidadUnica.Clases.Vehiculo
             ImprimirConsola(Texto1 + " " + texto2 + " " + texto3 + " " + texto4 + " " + texto5);
         }
 
-        public void AcerelarVehiculo(string Texto1)
-        {
-           
-        }
+        
     }
 }
